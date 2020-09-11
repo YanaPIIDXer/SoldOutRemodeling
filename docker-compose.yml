@@ -6,4 +6,6 @@ services:
             context: ./Apache
         ports:
             - 80:80
+        volumes:
+            - ./Apache/SOLDOUT/soldout:/var/www/html
         
