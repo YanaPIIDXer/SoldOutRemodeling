@@ -1,1 +1,3 @@
 DB/*
+Apache/SOLDOUT/soldout/data/*
+!Apache/SOLDOUT/soldout/data/index.html
