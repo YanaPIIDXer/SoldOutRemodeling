@@ -1,7 +1,8 @@
 FROM centos:7
 
 RUN yum install -y httpd httpd-devel
-RUN systemctl enable httpd.service
+
+ADD ./httpd.conf /etc/httpd/conf/httpd.conf
 
 ADD ./SOLDOUT/soldout /var/www/html
 RUN chmod 755 /var/www/html -R && \
