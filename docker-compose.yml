@@ -7,7 +7,7 @@ services:
         ports:
             - 80:80
         volumes:
-            - ./Sources:/usr/local/apache2/htdocs
+            - ./SOLDOUT/soldout:/usr/local/apache2/htdocs
         
     # DB
     db:
