@@ -1,45 +1,45 @@
-# ‚±‚Ìƒtƒ@ƒCƒ‹‚Ìƒp[ƒ~ƒbƒVƒ‡ƒ“‚Í644(or604or600)‚Å‚·B
+# ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Ìƒpï¿½[ï¿½~ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½644(or604or600)ï¿½Å‚ï¿½ï¿½B
 # $Id: _config.cgi 100 2004-03-15 11:32:20Z mu $
 
 #----------------------
-# ŸŸŸâ‘ÎÝ’èŸŸŸ 
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎÝ’èŸï¿½ï¿½ï¿½ï¿½ 
 #----------------------
-$MASTER_PASSWORD	='';		# ŠÇ—ŽÒƒpƒXƒ[ƒh(ƒ}ƒXƒ^[ƒpƒXƒ[ƒh) Ÿ”¼Šp‰p”‚Ì‚ÝŸ
-$ADMIN_EMAIL		='';		# ŠÇ—ŽÒƒ[ƒ‹ƒAƒhƒŒƒX
-$TOWN_CODE			='';		# ‚±‚ÌŠX‚ÌƒR[ƒh
-								#   ‘¼‚ÌŠX‚Æd•¡‚µ‚È‚¢ŒÅ—L‚ÌƒR[ƒh Ÿ”¼Šp‰p”10•¶ŽšˆÈ“à¬•¶Žš‚Ì‚ÝŸ
-								#   ˆÚ“]‹@”\‚¨‚æ‚Ñ–fˆÕ‹@”\‚ðŽg—p‚µ‚È‚¢ê‡‚ÍÝ’è‚µ‚È‚¢‚Å‚­‚¾‚³‚¢B
+$MASTER_PASSWORD	='password';		# ï¿½Ç—ï¿½ï¿½Òƒpï¿½Xï¿½ï¿½ï¿½[ï¿½h(ï¿½}ï¿½Xï¿½^ï¿½[ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½h) ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½pï¿½ï¿½ï¿½Ì‚Ýï¿½
+$ADMIN_EMAIL		='example@example.com';		# ï¿½Ç—ï¿½ï¿½Òƒï¿½ï¿½[ï¿½ï¿½ï¿½Aï¿½hï¿½ï¿½ï¿½X
+$TOWN_CODE			='';		# ï¿½ï¿½ï¿½ÌŠXï¿½ÌƒRï¿½[ï¿½h
+								#   ï¿½ï¿½ï¿½ÌŠXï¿½Ædï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Å—Lï¿½ÌƒRï¿½[ï¿½h ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½pï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½ï¿½È“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ýï¿½
+								#   ï¿½Ú“]ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½Ñ–fï¿½Õ‹@ï¿½\ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ÍÝ’è‚µï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
 #----------
-# •\Ž¦Ý’è 
+# ï¿½\ï¿½ï¿½ï¿½Ý’ï¿½ 
 #----------
-$HTML_TITLE	='SOLD OUT';				# ‘Sƒy[ƒW‚ÌHTMLƒ^ƒCƒgƒ‹(HTML•s‰Â)
-$GAME_TITLE	='<H1>SOLD OUT</H1>';		# ƒgƒbƒvƒy[ƒW‚Ìƒ^ƒCƒgƒ‹(HTML‰Â)
-$GAME_SUB_TITLE	='';					# ƒgƒbƒvƒy[ƒW‚Ìƒ^ƒCƒgƒ‹‚ÌŽŸ‚É•\Ž¦‚³‚ê‚éƒTƒuƒ^ƒCƒgƒ‹(HTML‰Â)
-$GAME_INFO	='';						# ƒgƒbƒvƒy[ƒW‚Ìƒ^ƒCƒgƒ‹orƒTƒuƒ^ƒCƒgƒ‹‚ÌŽŸ‚É•\Ž¦‚³‚ê‚éà–¾(HTML‰Â)
-$BBS_INFO	='';						# ŒfŽ¦”Â‚Ìà–¾(HTML‰Â)
-$CHAT_INFO	='';						# ˆäŒË’[‚Ìà–¾(HTML‰Â)
-$GLOBAL_MSG_INFO='';					# LˆæŒfŽ¦”Â‚ÌƒfƒtƒHƒ‹ƒgà–¾(HTML‰Â)
-										#   $GLOBAL_MSG_INFO{ƒJƒeƒSƒŠ[ƒR[ƒh}‚ªÝ’è‚³‚ê‚Ä‚¢‚ê‚Î‚»‚¿‚ç‚ª—Dæ
-$RULE_INFO	='E1l1“X•Ü';				# ‚±‚ÌƒTƒCƒg‚Ìƒ‹[ƒ‹(HTML‰Â)
-$MARKET_INFO	='';					# ŠOo‚Ìà–¾(HTLM‰Â)
+$HTML_TITLE	='FUCKING SOLD OUT';				# ï¿½Sï¿½yï¿½[ï¿½Wï¿½ï¿½HTMLï¿½^ï¿½Cï¿½gï¿½ï¿½(HTMLï¿½sï¿½ï¿½)
+$GAME_TITLE	='<H1>FUCKING SOLD OUT</H1>';		# ï¿½gï¿½bï¿½vï¿½yï¿½[ï¿½Wï¿½Ìƒ^ï¿½Cï¿½gï¿½ï¿½(HTMLï¿½ï¿½)
+$GAME_SUB_TITLE	='';					# ï¿½gï¿½bï¿½vï¿½yï¿½[ï¿½Wï¿½Ìƒ^ï¿½Cï¿½gï¿½ï¿½ï¿½ÌŽï¿½ï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½uï¿½^ï¿½Cï¿½gï¿½ï¿½(HTMLï¿½ï¿½)
+$GAME_INFO	='';						# ï¿½gï¿½bï¿½vï¿½yï¿½[ï¿½Wï¿½Ìƒ^ï¿½Cï¿½gï¿½ï¿½orï¿½Tï¿½uï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½ÌŽï¿½ï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(HTMLï¿½ï¿½)
+$BBS_INFO	='';						# ï¿½fï¿½ï¿½ï¿½Â‚Ìï¿½ï¿½ï¿½(HTMLï¿½ï¿½)
+$CHAT_INFO	='';						# ï¿½ï¿½Ë’[ï¿½Ìï¿½ï¿½ï¿½(HTMLï¿½ï¿½)
+$GLOBAL_MSG_INFO='';					# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Â‚Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½(HTMLï¿½ï¿½)
+										#   $GLOBAL_MSG_INFO{ï¿½Jï¿½eï¿½Sï¿½ï¿½ï¿½[ï¿½Rï¿½[ï¿½h}ï¿½ï¿½ï¿½Ý’è‚³ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Î‚ï¿½ï¿½ï¿½ï¿½ç‚ªï¿½Dï¿½ï¿½
+$RULE_INFO	='ï¿½E1ï¿½l1ï¿½Xï¿½ï¿½';				# ï¿½ï¿½ï¿½ÌƒTï¿½Cï¿½gï¿½Ìƒï¿½ï¿½[ï¿½ï¿½(HTMLï¿½ï¿½)
+$MARKET_INFO	='';					# ï¿½Oï¿½oï¿½Ìï¿½ï¿½ï¿½(HTLMï¿½ï¿½)
 
 #------------
-# •\Ž¦FÝ’è 
+# ï¿½\ï¿½ï¿½ï¿½Fï¿½Ý’ï¿½ 
 #------------
-#<body>ˆÈŠO‚Ì‘®«‚ÍƒXƒ^ƒCƒ‹ƒV[ƒg‚Ås‚¤•ûj‚Å‚·
-$HTML_BODY_BGCOLOR		='#ffffff';	# <BODY>”wŒiF
-$HTML_BODY_TEXT			='#000033';	# <BODY>ƒeƒLƒXƒg
-$HTML_BODY_LINK			='#5566ff';	# <BODY>ƒŠƒ“ƒNF
-$HTML_BODY_ALINK		='#5566ff';	# <BODY>ƒAƒNƒeƒBƒuƒŠƒ“ƒNF
-$HTML_BODY_VLINK		='#5566ff';	# <BODY>–K–âÏƒŠƒ“ƒNF
-$HTML_BODY_BACKGROUND	='';		# <BODY>”wŒi‰æ‘œ
+#<body>ï¿½ÈŠOï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ÍƒXï¿½^ï¿½Cï¿½ï¿½ï¿½Vï¿½[ï¿½gï¿½Åsï¿½ï¿½ï¿½ï¿½ï¿½jï¿½Å‚ï¿½
+$HTML_BODY_BGCOLOR		='#ffffff';	# <BODY>ï¿½wï¿½iï¿½F
+$HTML_BODY_TEXT			='#000033';	# <BODY>ï¿½eï¿½Lï¿½Xï¿½g
+$HTML_BODY_LINK			='#5566ff';	# <BODY>ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½F
+$HTML_BODY_ALINK		='#5566ff';	# <BODY>ï¿½Aï¿½Nï¿½eï¿½Bï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½F
+$HTML_BODY_VLINK		='#5566ff';	# <BODY>ï¿½Kï¿½ï¿½Ïƒï¿½ï¿½ï¿½ï¿½Nï¿½F
+$HTML_BODY_BACKGROUND	='';		# <BODY>ï¿½wï¿½iï¿½æ‘œ
 
 #----------------
-# <head>’Ç‰ÁÝ’è 
+# <head>ï¿½Ç‰ï¿½ï¿½Ý’ï¿½ 
 #----------------
-#<body>ˆÈŠO‚Ì‘®«‚ÍƒXƒ^ƒCƒ‹ƒV[ƒg‚Ås‚¤•ûj‚Å‚·
-$HTML_HEAD=<<'HTML';				# <HEAD>’Ç‰ÁHTML
+#<body>ï¿½ÈŠOï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ÍƒXï¿½^ï¿½Cï¿½ï¿½ï¿½Vï¿½[ï¿½gï¿½Åsï¿½ï¿½ï¿½ï¿½ï¿½jï¿½Å‚ï¿½
+$HTML_HEAD=<<'HTML';				# <HEAD>ï¿½Ç‰ï¿½HTML
 <Style Type="text/css">
 <!--
 A:link   {text-decoration:none}
@@ -67,265 +67,265 @@ TR {background-color: #eef4ff}
 HTML
 
 #----------
-# ŠÂ‹«Ý’è 
+# ï¿½Â‹ï¿½ï¿½Ý’ï¿½ 
 #----------
-$HOME_PAGE			='/';					# ƒz[ƒ€ƒy[ƒWURL
-$HOME_PAGE_MOBILE	='/';					# Œg‘Ñ’[––‚Ìê‡‚Ìƒz[ƒ€ƒy[ƒWURL
-$IMAGE_DIR			='./image';				# ‰æ‘œƒfƒBƒŒƒNƒgƒŠ(755)
-$IMAGE_URL			='image';				# ‰æ‘œURL(URL‚ÆŽÀÛ‚ÌƒfƒBƒŒƒNƒgƒŠ‚ªˆá‚¤ê‡Ý’è)
-$IMAGE_EXT			='.png';				# ‰æ‘œƒtƒH[ƒ}ƒbƒg(.gif .jpg “™‚à‰æ‘œ‚ð—pˆÓ‚·‚ê‚ÎŽg—p‰Â”\)
-$DATA_DIR			='./data';				# ƒf[ƒ^•Û‘¶—pƒfƒBƒŒƒNƒgƒŠ(777)
-$AUTOLOAD_DIR		='./auto';				# AUTOLOAD—pŠÖ”ƒtƒ@ƒCƒ‹ƒfƒBƒŒƒNƒgƒŠ(755)
-$INCLUDE_DIR		='./inc';				# INCLUDEƒfƒBƒŒƒNƒgƒŠ(755)
-$CUSTOM_DIR			='./custom';			# ƒJƒXƒ^ƒ€ƒf[ƒ^ƒfƒBƒŒƒNƒgƒŠ(755)
-$TOWN_DIR			='./town';				# ‘¼ŠXƒf[ƒ^Ši”[ƒfƒBƒŒƒNƒgƒŠ(755)
-$MARKET_DIR			='./market';			# ŠOoæƒf[ƒ^Ši”[ƒfƒBƒŒƒNƒgƒŠ(755)
-$GUILD_DIR			='./guild';				# ƒMƒ‹ƒhƒf[ƒ^ƒfƒBƒŒƒNƒgƒŠ(755)
-$JCODE_FILE			=$INCLUDE_DIR.'/jcode.pl';# jcode.pl‚ÌˆÊ’u
-$GZIP_PATH			='';					# gzip‚ÌƒpƒX&ƒIƒvƒVƒ‡ƒ“(ˆ³k“]‘—‚ª—LŒø‚É‚È‚é)
-											#   Ý’è•s³‚Ìê‡‚Í“®ì•s‰Â(ƒpƒXƒ`ƒFƒbƒN–³‚µ)
-											#   —á) '/usr/bin/gzip --fast --stdout'
-$DIR_PERMISSION		=0777;					# ƒfƒBƒŒƒNƒgƒŠì¬Žž‚Ìƒp[ƒ~ƒbƒVƒ‡ƒ“iWEBƒ†[ƒU‚ÌŠ—L‚É‚È‚é‰Â”\«‚àl—¶‚·‚é‚±‚Æj
-$TZ_JST				=60*60*9;				# GMT‚©‚ç‚ÌŽž·
-$SENDMAIL			='';					# sendmail‚ÌƒpƒX&ƒIƒvƒVƒ‡ƒ“
-											#   ƒGƒ‰[î•ñ‚ðƒ[ƒ‹‚ÅŽó‚¯Žæ‚éê‡‚Ì‚ÝÝ’è
+$HOME_PAGE			='https://github.com/YanaPIIDXer/SoldOutRemodeling';					# ï¿½zï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½WURL
+$HOME_PAGE_MOBILE	='https://github.com/YanaPIIDXer/SoldOutRemodeling';					# ï¿½gï¿½Ñ’[ï¿½ï¿½ï¿½Ìê‡ï¿½Ìƒzï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½WURL
+$IMAGE_DIR			='./image';				# ï¿½æ‘œï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$IMAGE_URL			='image';				# ï¿½æ‘œURL(URLï¿½ÆŽï¿½ï¿½Û‚Ìƒfï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½á‚¤ï¿½ê‡ï¿½Ý’ï¿½)
+$IMAGE_EXT			='.png';				# ï¿½æ‘œï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½g(.gif .jpg ï¿½ï¿½ï¿½ï¿½ï¿½æ‘œï¿½ï¿½pï¿½Ó‚ï¿½ï¿½ï¿½ÎŽgï¿½pï¿½Â”\)
+$DATA_DIR			='./data';				# ï¿½fï¿½[ï¿½^ï¿½Û‘ï¿½ï¿½pï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(777)
+$AUTOLOAD_DIR		='./auto';				# AUTOLOADï¿½pï¿½Öï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$INCLUDE_DIR		='./inc';				# INCLUDEï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$CUSTOM_DIR			='./custom';			# ï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$TOWN_DIR			='./town';				# ï¿½ï¿½ï¿½Xï¿½fï¿½[ï¿½^ï¿½iï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$MARKET_DIR			='./market';			# ï¿½Oï¿½oï¿½ï¿½fï¿½[ï¿½^ï¿½iï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$GUILD_DIR			='./guild';				# ï¿½Mï¿½ï¿½ï¿½hï¿½fï¿½[ï¿½^ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½(755)
+$JCODE_FILE			=$INCLUDE_DIR.'/jcode.pl';# jcode.plï¿½ÌˆÊ’u
+$GZIP_PATH			='';					# gzipï¿½Ìƒpï¿½X&ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½kï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½É‚È‚ï¿½)
+											#   ï¿½Ý’ï¿½sï¿½ï¿½ï¿½Ìê‡ï¿½Í“ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½pï¿½Xï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½)
+											#   ï¿½ï¿½) '/usr/bin/gzip --fast --stdout'
+$DIR_PERMISSION		=0777;					# ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ìƒpï¿½[ï¿½~ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½iWEBï¿½ï¿½ï¿½[ï¿½Uï¿½Ìï¿½ï¿½Lï¿½É‚È‚ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æj
+$TZ_JST				=60*60*9;				# GMTï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½
+$SENDMAIL			='';					# sendmailï¿½Ìƒpï¿½X&ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½
+											#   ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÅŽó‚¯Žï¿½ï¿½ê‡ï¿½Ì‚ÝÝ’ï¿½
 
 #--------------
-# –fˆÕ‹@”\Ý’è 
+# ï¿½fï¿½Õ‹@ï¿½\ï¿½Ý’ï¿½ 
 #--------------
-$TRADE_ENABLE		=0;			# –fˆÕ‹@”\‚Ì—LŒø‰» 1:—LŒø 0:–³Œø
-								#   –fˆÕ‚Í•Ê“r–fˆÕ‹@”\’ñ‹ŸƒTƒCƒg‚Ö‚Ì“o˜^‚ª•K—v‚Å‚·
-$TRADE_HOST_ALLOW	='';		# –fˆÕ‹–‰ÂIPF    –fˆÕ–ÔŽQ‰ÁŽž‚É–fˆÕ‹@”\’ñ‹ŸƒTƒCƒg‘¤‚æ‚èŽw’è
-$TRADE_HOST_PASSWORD='';		# –fˆÕƒpƒXƒ[ƒhF–fˆÕ–ÔŽQ‰ÁŽž‚É–fˆÕ‹@”\’ñ‹ŸƒTƒCƒg‘¤‚æ‚èŽw’è
+$TRADE_ENABLE		=0;			# ï¿½fï¿½Õ‹@ï¿½\ï¿½Ì—Lï¿½ï¿½ï¿½ï¿½ 1:ï¿½Lï¿½ï¿½ 0:ï¿½ï¿½ï¿½ï¿½
+								#   ï¿½fï¿½Õ‚Í•Ê“rï¿½fï¿½Õ‹@ï¿½\ï¿½ñ‹ŸƒTï¿½Cï¿½gï¿½Ö‚Ì“oï¿½^ï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½
+$TRADE_HOST_ALLOW	='';		# ï¿½fï¿½Õ‹ï¿½ï¿½ï¿½IPï¿½F    ï¿½fï¿½Õ–ÔŽQï¿½ï¿½ï¿½ï¿½ï¿½É–fï¿½Õ‹@ï¿½\ï¿½ñ‹ŸƒTï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½
+$TRADE_HOST_PASSWORD='';		# ï¿½fï¿½Õƒpï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Fï¿½fï¿½Õ–ÔŽQï¿½ï¿½ï¿½ï¿½ï¿½É–fï¿½Õ‹@ï¿½\ï¿½ñ‹ŸƒTï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½
 
 #--------------
-# ˆÚ“]‹@”\Ý’è 
+# ï¿½Ú“]ï¿½@ï¿½\ï¿½Ý’ï¿½ 
 #--------------
-$MOVETOWN_ENABLE	=0;			# ˆÚ“]‹@”\‚Ì—LŒø‰» 1:—LŒø 0:–³Œø
+$MOVETOWN_ENABLE	=0;			# ï¿½Ú“]ï¿½@ï¿½\ï¿½Ì—Lï¿½ï¿½ï¿½ï¿½ 1:ï¿½Lï¿½ï¿½ 0:ï¿½ï¿½ï¿½ï¿½
 
 #--------------
-# ŠOo‹@”\Ý’è 
+# ï¿½Oï¿½oï¿½@ï¿½\ï¿½Ý’ï¿½ 
 #--------------
-$MARKET_ENABLE		=0;			# ŠOo‹@”\‚Ì—LŒø‰» 1:—LŒø 0:–³Œø
+$MARKET_ENABLE		=0;			# ï¿½Oï¿½oï¿½@ï¿½\ï¿½Ì—Lï¿½ï¿½ï¿½ï¿½ 1:ï¿½Lï¿½ï¿½ 0:ï¿½ï¿½ï¿½ï¿½
 
 #------------------
-# _config Ý’èŠg’£ 
+# _config ï¿½Ý’ï¿½gï¿½ï¿½ 
 #------------------
-# ŠÂ‹«Ý’è‚ð“®“I‚É•ÏX‚µ‚½‚¢ê‡‚Í‰º‹Lƒtƒ@ƒCƒ‹‚ðV‹Kì¬‚µA‹Lq‚µ‚Ä‚­‚¾‚³‚¢B
-# —á‚¦‚ÎA1‚Â‚Ì SOLD OUT ƒXƒNƒŠƒvƒg‚ð‹¤—L‚µ‚Ä•¡”‚ÌŠX‚ð“®ì‚³‚¹‚½‚¢ê‡‚È‚ÇB
+# ï¿½Â‹ï¿½ï¿½Ý’ï¿½ð“®“Iï¿½É•ÏXï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Í‰ï¿½ï¿½Lï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½Vï¿½Kï¿½ì¬ï¿½ï¿½ï¿½Aï¿½Lï¿½qï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+# ï¿½á‚¦ï¿½ÎA1ï¿½Â‚ï¿½ SOLD OUT ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Ä•ï¿½ï¿½ï¿½ï¿½ÌŠXï¿½ð“®ì‚³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½È‚ÇB
 require './_config-local-pre.cgi' if -e './_config-local-pre.cgi';
 
 #----------------------------------------------------------------
-# ŠeŽíƒf[ƒ^ƒtƒ@ƒCƒ‹Ý’è(•ÏX‚ª–]‚Ü‚µ‚¢‚Å‚·‚ª‚»‚Ì‚Ü‚Ü‚Å‚àOK‚Å‚·) 
+# ï¿½eï¿½ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ý’ï¿½(ï¿½ÏXï¿½ï¿½ï¿½]ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ü‚Ü‚Å‚ï¿½OKï¿½Å‚ï¿½) 
 #----------------------------------------------------------------
-$FILE_EXT			='.cgi';					# ŠeŽíƒf[ƒ^ƒtƒ@ƒCƒ‹‚ÌŠg’£Žq
+$FILE_EXT			='.cgi';					# ï¿½eï¿½ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÌŠgï¿½ï¿½ï¿½q
 
-$COMMIT_FILE		='commit';					# ƒf[ƒ^XV—pƒtƒ@ƒCƒ‹–¼
-$LASTTIME_FILE		='lasttime';				# ÅIXVŽžŒŸ¸—pƒtƒ@ƒCƒ‹–¼
-$LOCK_FILE			='lockfile';				# ƒƒbƒN—pƒtƒ@ƒCƒ‹–¼
-$DATA_FILE			='data';					# ƒf[ƒ^ƒtƒ@ƒCƒ‹
-$COUNTER_FILE		='counter';					# “à•”ƒJƒEƒ“ƒ^ƒtƒ@ƒCƒ‹ƒx[ƒX–¼
-$LOG_FILE			='log';						# Å‹ß‚Ìo—ˆŽ–ƒtƒ@ƒCƒ‹ƒx[ƒX–¼
-$BBS_FILE			='bbslog';					# ŒfŽ¦”ÂƒƒOƒtƒ@ƒCƒ‹
-$CHAT_FILE			='chatlog';					# ˆäŒË’[ƒƒOƒtƒ@ƒCƒ‹
-$GLOBAL_MSG_FILE	='gmsg';					# LˆæŒfŽ¦”Âƒtƒ@ƒCƒ‹ƒx[ƒX–¼
-$BOX_FILE			='box';						# —X•Ö” ƒtƒ@ƒCƒ‹
-$GUILDBAL_FILE		='guildbal';				# ƒMƒ‹ƒhŽûŽxƒtƒ@ƒCƒ‹
-$GUILD_FILE			='guild';					# ƒMƒ‹ƒh’è‹`ƒtƒ@ƒCƒ‹
-$PERIOD_FILE		='period';					# ŒˆŽZŽžƒƒOƒtƒ@ƒCƒ‹
-$IP_FILE			='ip';						# ƒ†[ƒU[‚ÌIPƒŠƒXƒgƒtƒ@ƒCƒ‹–¼
-$TRADE_FILE			='trade';					# –fˆÕ•iƒtƒ@ƒCƒ‹
-$TRADE_LOCK_FILE	='tradelock';				# –fˆÕ—pƒƒbƒNƒtƒ@ƒCƒ‹
-$ERROR_COUNT_FILE	='errorcnt';				# ŽÀsƒGƒ‰[‰ñ”‹L˜^ƒtƒ@ƒCƒ‹
+$COMMIT_FILE		='commit';					# ï¿½fï¿½[ï¿½^ï¿½Xï¿½Vï¿½pï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+$LASTTIME_FILE		='lasttime';				# ï¿½ÅIï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+$LOCK_FILE			='lockfile';				# ï¿½ï¿½ï¿½bï¿½Nï¿½pï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+$DATA_FILE			='data';					# ï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½
+$COUNTER_FILE		='counter';					# ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½Eï¿½ï¿½ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ï¿½
+$LOG_FILE			='log';						# ï¿½Å‹ß‚Ìoï¿½ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ï¿½
+$BBS_FILE			='bbslog';					# ï¿½fï¿½ï¿½ï¿½Âƒï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$CHAT_FILE			='chatlog';					# ï¿½ï¿½Ë’[ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$GLOBAL_MSG_FILE	='gmsg';					# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Âƒtï¿½@ï¿½Cï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ï¿½
+$BOX_FILE			='box';						# ï¿½Xï¿½Ö”ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½
+$GUILDBAL_FILE		='guildbal';				# ï¿½Mï¿½ï¿½ï¿½hï¿½ï¿½ï¿½xï¿½tï¿½@ï¿½Cï¿½ï¿½
+$GUILD_FILE			='guild';					# ï¿½Mï¿½ï¿½ï¿½hï¿½ï¿½`ï¿½tï¿½@ï¿½Cï¿½ï¿½
+$PERIOD_FILE		='period';					# ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$IP_FILE			='ip';						# ï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½ï¿½IPï¿½ï¿½ï¿½Xï¿½gï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½
+$TRADE_FILE			='trade';					# ï¿½fï¿½Õ•iï¿½tï¿½@ï¿½Cï¿½ï¿½
+$TRADE_LOCK_FILE	='tradelock';				# ï¿½fï¿½Õ—pï¿½ï¿½ï¿½bï¿½Nï¿½tï¿½@ï¿½Cï¿½ï¿½
+$ERROR_COUNT_FILE	='errorcnt';				# ï¿½ï¿½ï¿½sï¿½Gï¿½ï¿½ï¿½[ï¿½ñ”‹Lï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½
 
-$LOG_ERROR_FILE		='error';					# ƒGƒ‰[ƒƒOƒtƒ@ƒCƒ‹
-$LOG_DELETESHOP_FILE='delete';					# •Â“X‚µ‚½“X•Ü‚ÌƒoƒbƒNƒAƒbƒvƒf[ƒ^
-$LOG_MOVESHOP_FILE	='moveshop';				# ˆÚ“]ƒAƒNƒZƒXƒƒOƒtƒ@ƒCƒ‹
-$LOG_TRADE_FILE		='trade';					# –fˆÕƒAƒNƒZƒXƒƒOƒtƒ@ƒCƒ‹
-$LOG_LOGIN_FILE		='login';					# ƒƒOƒCƒ“•s¬Œ÷ƒƒOƒtƒ@ƒCƒ‹
-$LOG_DEBUG_FILE		='debug';					# ƒfƒoƒbƒOƒƒOƒtƒ@ƒCƒ‹
-$LOG_GLOBAL_MSG_FILE='gmsg';					# LˆæŒfŽ¦”ÂƒƒOƒtƒ@ƒCƒ‹
-$LOG_MARK_FILE		='mark';					# ƒ}[ƒNƒƒOƒtƒ@ƒCƒ‹
-$LOG_SIZE_MAX		=30000;						# ŠeŽíƒƒO‚ÌÅ‘åƒTƒCƒY(byte) 0:ƒƒO•Û‘¶–³‚µ 1`:Å‘åƒTƒCƒY
+$LOG_ERROR_FILE		='error';					# ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_DELETESHOP_FILE='delete';					# ï¿½Â“Xï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Ü‚Ìƒoï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½fï¿½[ï¿½^
+$LOG_MOVESHOP_FILE	='moveshop';				# ï¿½Ú“]ï¿½Aï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_TRADE_FILE		='trade';					# ï¿½fï¿½ÕƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_LOGIN_FILE		='login';					# ï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_DEBUG_FILE		='debug';					# ï¿½fï¿½oï¿½bï¿½Oï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_GLOBAL_MSG_FILE='gmsg';					# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Âƒï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_MARK_FILE		='mark';					# ï¿½}ï¿½[ï¿½Nï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½
+$LOG_SIZE_MAX		=30000;						# ï¿½eï¿½íƒï¿½Oï¿½ÌÅ‘ï¿½Tï¿½Cï¿½Y(byte) 0:ï¿½ï¿½ï¿½Oï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½`:ï¿½Å‘ï¿½Tï¿½Cï¿½Y
 
-$LOG_DIR			=$DATA_DIR.'/log';			# ŠeŽííœ‰Â”\ƒƒOƒtƒ@ƒCƒ‹Ši”[ƒfƒBƒŒƒNƒgƒŠ–¼
-$ITEM_DIR			=$DATA_DIR.'/item';			# ƒAƒCƒeƒ€ƒf[ƒ^ƒfƒBƒŒƒNƒgƒŠ–¼
-$SESSION_DIR		=$DATA_DIR.'/session';		# ƒZƒbƒVƒ‡ƒ“IDŠi”[ƒfƒBƒŒƒNƒgƒŠ–¼
-$BACKUP_DIR			=$DATA_DIR.'/backup';		# ƒoƒbƒNƒAƒbƒvƒfƒBƒŒƒNƒgƒŠƒx[ƒX–¼
-$TEMP_DIR			=$DATA_DIR.'/temp';			# ì‹Æ—pƒfƒBƒŒƒNƒgƒŠ
-$SUBDATA_DIR		=$DATA_DIR.'/subdata';		# ƒTƒuƒf[ƒ^ƒtƒ@ƒCƒ‹Ši”[ƒfƒBƒŒƒNƒgƒŠ–¼
+$LOG_DIR			=$DATA_DIR.'/log';			# ï¿½eï¿½ï¿½íœï¿½Â”\ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½iï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½
+$ITEM_DIR			=$DATA_DIR.'/item';			# ï¿½Aï¿½Cï¿½eï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½
+$SESSION_DIR		=$DATA_DIR.'/session';		# ï¿½Zï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½IDï¿½iï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½
+$BACKUP_DIR			=$DATA_DIR.'/backup';		# ï¿½oï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ï¿½
+$TEMP_DIR			=$DATA_DIR.'/temp';			# ï¿½ï¿½Æ—pï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½
+$SUBDATA_DIR		=$DATA_DIR.'/subdata';		# ï¿½Tï¿½uï¿½fï¿½[ï¿½^ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½iï¿½[ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½
 
 #-------------------------------------------------------
-# ˆÈ‰ºAƒQ[ƒ€Ý’è‚Å‚·B•K‚¸‚µ‚à•ÏX‚Ì•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
+# ï¿½È‰ï¿½ï¿½Aï¿½Qï¿½[ï¿½ï¿½ï¿½Ý’ï¿½Å‚ï¿½ï¿½Bï¿½Kï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏXï¿½Ì•Kï¿½vï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 #-------------------------------------------------------
 
 #----------
-# Šî–{Ý’è 
+# ï¿½ï¿½{ï¿½Ý’ï¿½ 
 #----------
-$HERO_NAME			='ƒiƒ†ƒ^';	# “`à‚Ì‰p—Y‚Ì–¼‘O(¤•i–¼“™‚ÉŽg—p‚³‚ê‚é)
-$MAX_USER			=50;		# V‘•ŠJ“X‹–‰ÂÅ‘å“X•Ü”
-$MAX_MOVE_USER		=55;		# ˆÚ“]Žó‚¯“ü‚êÅ‘å“X•Ü”
-								#   ŽÀÛ‚ÌÅ‘å“X•Ü”‚Í‚Ç‚¿‚ç‚©‘å‚«‚¢•û‚ª—LŒø
-								#   ŸŸd—vŸŸ“X•Ü”Ý’è‚ð‘å‚«‚­‚·‚é‚ÆƒT[ƒo•‰‰×‚ª‚‚­‚È‚è‚Ü‚·
-								#   ‚È‚é‚×‚­ƒfƒtƒHƒ‹ƒgÝ’èˆÈ‰º‚Å‚¨Šè‚¢‚µ‚Ü‚·
-$PASSWORD_CRYPT		=0;			# ƒpƒXƒ[ƒhˆÃ†‰» 0=‚µ‚È‚¢ 1=‚·‚é
+$HERO_NAME			='ï¿½iï¿½ï¿½ï¿½^';	# ï¿½`ï¿½ï¿½ï¿½Ì‰pï¿½Yï¿½Ì–ï¿½ï¿½O(ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ÉŽgï¿½pï¿½ï¿½ï¿½ï¿½ï¿½)
+$MAX_USER			=50;		# ï¿½Vï¿½ï¿½ï¿½Jï¿½Xï¿½ï¿½ï¿½ÂÅ‘ï¿½Xï¿½Üï¿½
+$MAX_MOVE_USER		=55;		# ï¿½Ú“]ï¿½ó‚¯“ï¿½ï¿½ï¿½Å‘ï¿½Xï¿½Üï¿½
+								#   ï¿½ï¿½ï¿½Û‚ÌÅ‘ï¿½Xï¿½Üï¿½ï¿½Í‚Ç‚ï¿½ï¿½ç‚©ï¿½å‚«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½
+								#   ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Üï¿½ï¿½Ý’ï¿½ï¿½å‚«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒTï¿½[ï¿½oï¿½ï¿½ï¿½×‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Ü‚ï¿½
+								#   ï¿½È‚ï¿½×‚ï¿½ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ý’ï¿½È‰ï¿½ï¿½Å‚ï¿½ï¿½è‚¢ï¿½ï¿½ï¿½Ü‚ï¿½
+$PASSWORD_CRYPT		=0;			# ï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Ãï¿½ï¿½ï¿½ 0=ï¿½ï¿½ï¿½È‚ï¿½ 1=ï¿½ï¿½ï¿½ï¿½
 
 #----------
-# §ŒÀÝ’è 
+# ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½ 
 #----------
-$NEW_SHOP_ADMIN		=0;			# V‹K“X•ÜƒI[ƒvƒ“Œ ŒÀ 0:ˆê”Ê 1:ŠÇ—ŽÒ‚Ì‚Ý
-$NEW_SHOP_BLOCKIP	=0;			# 1‚Å“¯ˆêIP‚É‚æ‚é˜A‘±“o˜^(•Â“XŒã‚ÌÄ“o˜^‚àŠÜ‚Þ)‚ð‘jŽ~
-$CHECK_IP			=1;			# “¯ˆêIP•USER_AGENT‚ÌƒAƒNƒZƒX‚ðŽ©“®“I‚É§ŒÀ‚·‚é 1:§ŒÀ‚·‚é 0:§ŒÀ‚µ‚È‚¢
-@NG_SHOP_NAME		=qw(ŠÇ— ”nŽ­ ˆ¢•ð);
-								# “X•Ü–¼‚Æ‚µ‚ÄŽg—p‚Å‚«‚È‚¢•¶Žš‚ðƒXƒy[ƒX‹æØ‚è‚Å“o˜^
-$NEW_SHOP_KEYWORD	='';		# V‹K“X•ÜƒI[ƒvƒ“‚É•K—v‚ÈƒL[ƒ[ƒh‚ÌÝ’è
-								#   ‚±‚ÌƒL[ƒ[ƒh‚ð’m‚Á‚Ä‚¢‚él‚¾‚¯‚ª“o˜^‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
-								#   Žg—p—á) ƒ‹[ƒ‹ƒy[ƒW‚ÌÅŒã‚É‚±‚ÌƒL[ƒ[ƒh‚ðŒfÚ‚µ‚ÄA
-								#           ƒ‹[ƒ‹‚ð“Ç‚ñ‚¾l‚¾‚¯‚ª“o˜^‚Å‚«‚é‚æ‚¤‚É‚·‚é“™B
-$USE_USER_TITLE		=0;			# ƒgƒbƒv“X•Ü‚ÉuƒTƒuƒ^ƒCƒgƒ‹v‚ð•ÏX‚Å‚«‚éŒ —˜‚ð—^‚¦‚é‚©‚Ç‚¤‚©‚ÌÝ’è‚Å‚·B
-								#   1:—^‚¦‚é 0:—^‚¦‚È‚¢
-$CHAR_SHIFT_JIS		=0;			# ƒ†[ƒU‚©‚ç‚Ì“ú–{Œê“ü—Í‚ð SHIFT JIS ŒÅ’è‚Æ‚µ‚Äˆµ‚¤‚©‚Ç‚¤‚© 0:Ž©“®”»’è 1:SHIFT JIS ŒÅ’è
-								#   ŒÅ’è‚É‚·‚é‚Æ”¼ŠpƒJƒi—˜—p‚É‚æ‚é•¶Žš‰»‚¯‚ð–h‚®‚±‚Æ‚ª‰Â”\‚É‚È‚è‚Ü‚·‚ªA
-								#   EUC ƒx[ƒX‚Ì’[––“™‚©‚ç‚Ì“ü—Í‚ð³‚µ‚­ˆµ‚¦‚È‚­‚È‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
-$JUMP_MY_GUILD		=1;			# ƒƒjƒ…[‚ÉAŠ‘®‚·‚éƒMƒ‹ƒh–{‹’’n‚Ö‚ÌƒŠƒ“ƒN‚ð•\Ž¦‚·‚é‚©‚Ç‚¤‚© 0:‚µ‚È‚¢ 1:‚·‚é
-$GUILD_UNATTACH_PENALTY	=0;		# ƒMƒ‹ƒh–³Š‘®‚Ì“X•Ü‚É‰Û‚·ƒyƒiƒ‹ƒeƒB—¦ 0:–³Œø 1~1000:ŒˆŽZŽž‚É”„‚èã‚°‚Ì0.1~100%‚ð’¥Žû
+$NEW_SHOP_ADMIN		=0;			# ï¿½Vï¿½Kï¿½Xï¿½ÜƒIï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0:ï¿½ï¿½ï¿½ 1:ï¿½Ç—ï¿½ï¿½Ò‚Ì‚ï¿½
+$NEW_SHOP_BLOCKIP	=0;			# 1ï¿½Å“ï¿½ï¿½ï¿½IPï¿½É‚ï¿½ï¿½Aï¿½ï¿½ï¿½oï¿½^(ï¿½Â“Xï¿½ï¿½ÌÄ“oï¿½^ï¿½ï¿½ï¿½Ü‚ï¿½)ï¿½ï¿½jï¿½~
+$CHECK_IP			=1;			# ï¿½ï¿½ï¿½ï¿½IPï¿½ï¿½USER_AGENTï¿½ÌƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+@NG_SHOP_NAME		=qw(ï¿½Ç—ï¿½ ï¿½nï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½);
+								# ï¿½Xï¿½Ü–ï¿½ï¿½Æ‚ï¿½ï¿½ÄŽgï¿½pï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½yï¿½[ï¿½Xï¿½ï¿½Ø‚ï¿½Å“oï¿½^
+$NEW_SHOP_KEYWORD	='';		# ï¿½Vï¿½Kï¿½Xï¿½ÜƒIï¿½[ï¿½vï¿½ï¿½ï¿½É•Kï¿½vï¿½ÈƒLï¿½[ï¿½ï¿½ï¿½[ï¿½hï¿½ÌÝ’ï¿½
+								#   ï¿½ï¿½ï¿½ÌƒLï¿½[ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½^ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+								#   ï¿½gï¿½pï¿½ï¿½) ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ÌÅŒï¿½É‚ï¿½ï¿½ÌƒLï¿½[ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½fï¿½Ú‚ï¿½ï¿½ÄA
+								#           ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ç‚ñ‚¾lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½^ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½é“™ï¿½B
+$USE_USER_TITLE		=0;			# ï¿½gï¿½bï¿½vï¿½Xï¿½Ü‚Éuï¿½Tï¿½uï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½vï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½éŒ ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ÌÝ’ï¿½Å‚ï¿½ï¿½B
+								#   1:ï¿½^ï¿½ï¿½ï¿½ï¿½ 0:ï¿½^ï¿½ï¿½ï¿½È‚ï¿½
+$CHAR_SHIFT_JIS		=0;			# ï¿½ï¿½ï¿½[ï¿½Uï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ SHIFT JIS ï¿½Å’ï¿½Æ‚ï¿½ï¿½Äˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ 0:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1:SHIFT JIS ï¿½Å’ï¿½
+								#   ï¿½Å’ï¿½É‚ï¿½ï¿½ï¿½Æ”ï¿½ï¿½pï¿½Jï¿½iï¿½ï¿½ï¿½pï¿½É‚ï¿½é•¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Â”\ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½A
+								#   EUC ï¿½xï¿½[ï¿½Xï¿½Ì’[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½Í‚ð³‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+$JUMP_MY_GUILD		=1;			# ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½hï¿½{ï¿½ï¿½ï¿½nï¿½Ö‚Ìƒï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ 0:ï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½ï¿½ï¿½ï¿½
+$GUILD_UNATTACH_PENALTY	=0;		# ï¿½Mï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì“Xï¿½Ü‚É‰Û‚ï¿½ï¿½yï¿½iï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½ 0:ï¿½ï¿½ï¿½ï¿½ 1~1000:ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½É”ï¿½ï¿½ï¿½ã‚°ï¿½ï¿½0.1~100%ï¿½ð’¥Žï¿½
 
 #----------
-# ŽžŠÔÝ’è 
+# ï¿½ï¿½ï¿½ÔÝ’ï¿½ 
 #----------
-$UPDATE_TIME			=60*5;		# Å’ZXVƒTƒCƒNƒ‹(•b)
-$EXPIRE_TIME			=3600*24*7;	# –¢ƒƒOƒCƒ““o˜^–•ÁŠúŒÀ(•b)
-$EXPIRE_EX_TIME			=3600*4;	# –¢ƒƒOƒCƒ““o˜^–•ÁŠúŒÀ‰„’·ŽžŠÔ(•b) (’·ŠúƒvƒŒƒCƒ„[—D‹ö‚Ìˆ×AŒo‰cŠúŠÔ1“ú–ˆ‚É‰„’·‚³‚ê‚éŽžŠÔ‚Å‚·B)
-$EXPIRE_MAX_TIME		=3600*24*14;# –¢ƒƒOƒCƒ““o˜^–•ÁŠúŒÀÅ‘å(•b) (‰„’·ŒÀ“x)
-$AUTO_UNLOCK_TIME		=60;		# ƒƒbƒNŽ©“®‰ðœ‘Ò‚¿•b”
-$SESSION_TIMEOUT_TIME	=600;		# ƒZƒbƒVƒ‡ƒ“ƒ^ƒCƒ€ƒAƒEƒg•b”(’Z‚¢‚Ù‚ÇƒZƒLƒ…ƒŠƒeƒB“I‚É—Ç‚¢‚ª•s•Ö‚É‚È‚éj
-$ONE_DAY_TIME			=3600*27;	# ŒˆŽZƒTƒCƒNƒ‹(•b)(3600*24‚Å24ŽžŠÔ–ˆ‚ÉŒˆŽZ)
-$DATE_REVISE_TIME		=0;			# ŒˆŽZŽž‚ð‚¸‚ç‚·•b”(-3600‚Å1ŽžŠÔ‘O“|‚µ)
-$MAX_STOCK_TIME			=48*60*60;	# Å‘åŽ‚¿ŽžŠÔ(•b)
-$BOX_STOCK_TIME			=48*60*60;	# —X•Ö‚ª—LŒø‚ÈŽžŠÔ(•b)
-$LOG_EXPIRE_TIME		=3600*24;	# Å‹ß‚Ìo—ˆŽ–‚Ì•Û‘¶ŠúŒÀ(ŽÀÛ‚Í‚±‚ê‚Ì2”{‚ÌŠúŠÔ•Û‘¶‚³‚ê‚é)
-$PASSWORD_HASH_EXPIRE_TIME	=60*15;	# ˆÚ“]/–fˆÕ/LˆæŒfŽ¦”Â‚ÅŽg—p‚·‚éˆêŽž“I‚ÈƒpƒXƒ[ƒh‚Ì—LŒøŠúŠÔ(•b)
-									#   ’Z‚¢‚Ù‚ÇƒZƒLƒ…ƒŠƒeƒB“I‚É—Ç‚¢‚ªAƒzƒXƒgŠÔ‚ÌŽž·‚àl—¶‚·‚é•K—v‚ª‚ ‚éB
+$UPDATE_TIME			=60*5;		# ï¿½Å’Zï¿½Xï¿½Vï¿½Tï¿½Cï¿½Nï¿½ï¿½(ï¿½b)
+$EXPIRE_TIME			=3600*24*7;	# ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½oï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½b)
+$EXPIRE_EX_TIME			=3600*4;	# ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½oï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½b) (ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Dï¿½ï¿½ï¿½Ìˆ×Aï¿½oï¿½cï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éŽžï¿½Ô‚Å‚ï¿½ï¿½B)
+$EXPIRE_MAX_TIME		=3600*24*14;# ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Cï¿½ï¿½ï¿½oï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‘ï¿½(ï¿½b) (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½x)
+$AUTO_UNLOCK_TIME		=60;		# ï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò‚ï¿½ï¿½bï¿½ï¿½
+$SESSION_TIMEOUT_TIME	=600;		# ï¿½Zï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½Aï¿½Eï¿½gï¿½bï¿½ï¿½(ï¿½Zï¿½ï¿½ï¿½Ù‚ÇƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½Iï¿½É—Ç‚ï¿½ï¿½ï¿½ï¿½sï¿½Ö‚É‚È‚ï¿½j
+$ONE_DAY_TIME			=3600*27;	# ï¿½ï¿½ï¿½Zï¿½Tï¿½Cï¿½Nï¿½ï¿½(ï¿½b)(3600*24ï¿½ï¿½24ï¿½ï¿½ï¿½Ô–ï¿½ï¿½ÉŒï¿½ï¿½Z)
+$DATE_REVISE_TIME		=0;			# ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚·ï¿½bï¿½ï¿½(-3600ï¿½ï¿½1ï¿½ï¿½ï¿½Ô‘Oï¿½|ï¿½ï¿½)
+$MAX_STOCK_TIME			=48*60*60;	# ï¿½Å‘åŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½b)
+$BOX_STOCK_TIME			=48*60*60;	# ï¿½Xï¿½Ö‚ï¿½ï¿½Lï¿½ï¿½ï¿½ÈŽï¿½ï¿½ï¿½(ï¿½b)
+$LOG_EXPIRE_TIME		=3600*24;	# ï¿½Å‹ß‚Ìoï¿½ï¿½ï¿½ï¿½ï¿½Ì•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½Û‚Í‚ï¿½ï¿½ï¿½ï¿½2ï¿½{ï¿½ÌŠï¿½ï¿½Ô•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+$PASSWORD_HASH_EXPIRE_TIME	=60*15;	# ï¿½Ú“]/ï¿½fï¿½ï¿½/ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Â‚ÅŽgï¿½pï¿½ï¿½ï¿½ï¿½êŽžï¿½Iï¿½Èƒpï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½Ì—Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½b)
+									#   ï¿½Zï¿½ï¿½ï¿½Ù‚ÇƒZï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½Iï¿½É—Ç‚ï¿½ï¿½ï¿½ï¿½Aï¿½zï¿½Xï¿½gï¿½Ô‚ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
 #--------------
-# •\Ž¦s”Ý’è 
+# ï¿½\ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ý’ï¿½ 
 #--------------
-$TOP_RANKING_PAGE_ROWS	=5;		# uƒgƒbƒvvƒ‰ƒ“ƒLƒ“ƒO•\Ž¦Œ”
-$MAIN_LOG_PAGE_ROWS		=10;	# u“X’·ŽºvÅ‹ß‚Ìo—ˆŽ–•\Ž¦Œ”
-$SHOP_PAGE_ROWS			=5;		# u‘¼“Xv“X•Ü•\Ž¦Œ”
-$RANKING_PAGE_ROWS		=10;	# ƒ‰ƒ“ƒLƒ“ƒO•\Ž¦Œ”
-$LIST_PAGE_ROWS_PC		=20;	# ŠeŽíƒŠƒXƒg•\Ž¦Œ”(PC)
-$LIST_PAGE_ROWS_MOBILE	=5;		# ŠeŽíƒŠƒXƒg•\Ž¦Œ”(MOBILE)
+$TOP_RANKING_PAGE_ROWS	=5;		# ï¿½uï¿½gï¿½bï¿½vï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+$MAIN_LOG_PAGE_ROWS		=10;	# ï¿½uï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Å‹ß‚Ìoï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+$SHOP_PAGE_ROWS			=5;		# ï¿½uï¿½ï¿½ï¿½Xï¿½vï¿½Xï¿½Ü•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+$RANKING_PAGE_ROWS		=10;	# ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+$LIST_PAGE_ROWS_PC		=20;	# ï¿½eï¿½íƒŠï¿½Xï¿½gï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(PC)
+$LIST_PAGE_ROWS_MOBILE	=5;		# ï¿½eï¿½íƒŠï¿½Xï¿½gï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(MOBILE)
 
 #----------
-# •\Ž¦Ý’è 
+# ï¿½\ï¿½ï¿½ï¿½Ý’ï¿½ 
 #----------
-$SHOP_ICON_HEADER		='';	# “X•ÜƒAƒCƒRƒ“‚ÌŒÄÌ(ƒ‰ƒ“ƒLƒ“ƒO•\Ž¦“™‚É—˜—p)
-								#   image/shop-$DT->{icon}.png ‚ª“X•ÜƒAƒCƒRƒ“‚Æ‚µ‚Ä•\Ž¦‚³‚ê‚Ü‚·B
-								#   ƒAƒCƒRƒ“‚ðŽg—p‚µ‚È‚¢ê‡‚Í '' ‚ðÝ’è‚µ‚Ä‚­‚¾‚³‚¢B
-								#   Ý’è—á:$SHOP_ICON_HEADER='“X•Ü';
-@TOP_COUNT_IMAGE_LIST	=qw();	# —DŸŒMÍÝ’è
-								#   ŒMÍ‚ÌŽí—Þ‚ðÝ’è‚µ‚Ü‚·B
-								#   –¢Ý’è()‚Ìê‡‚Í¡‚Ü‚Å’Ê‚è‚Ì•\Ž¦‚É‚È‚è‚Ü‚·B
-								#   Ý’è—á:@TOP_COUNT_IMAGE_LIST=qw(200 150 100 75 50 25 10 5 1);
-								#   ‚±‚Ì—á‚ÌÝ’è‚Å‚ÍA—DŸ‰ñ”93‰ñ‚Ìê‡A
+$SHOP_ICON_HEADER		='';	# ï¿½Xï¿½ÜƒAï¿½Cï¿½Rï¿½ï¿½ï¿½ÌŒÄï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½É—ï¿½ï¿½p)
+								#   image/shop-$DT->{icon}.png ï¿½ï¿½ï¿½Xï¿½ÜƒAï¿½Cï¿½Rï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+								#   ï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ '' ï¿½ï¿½Ý’è‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+								#   ï¿½Ý’ï¿½ï¿½:$SHOP_ICON_HEADER='ï¿½Xï¿½ï¿½';
+@TOP_COUNT_IMAGE_LIST	=qw();	# ï¿½Dï¿½ï¿½ï¿½Mï¿½ÍÝ’ï¿½
+								#   ï¿½Mï¿½Í‚ÌŽï¿½Þ‚ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
+								#   ï¿½ï¿½ï¿½Ý’ï¿½()ï¿½Ìê‡ï¿½Íï¿½ï¿½Ü‚Å’Ê‚ï¿½Ì•\ï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+								#   ï¿½Ý’ï¿½ï¿½:@TOP_COUNT_IMAGE_LIST=qw(200 150 100 75 50 25 10 5 1);
+								#   ï¿½ï¿½ï¿½Ì—ï¿½ÌÝ’ï¿½Å‚ÍAï¿½Dï¿½ï¿½ï¿½ï¿½93ï¿½ï¿½Ìê‡ï¿½A
 								#    image/rank-50.png image/rank-25.png image/rank-10.png
 								#    image/rank-5.png image/rank-1.png image/rank-1.png image/rank-1.png
-								#   ‚Ì‡‚ÉŒMÍ‚ª•\Ž¦‚³‚ê‚Ü‚·B‘Î‰ž‚·‚éŒMÍ‰æ‘œ‚ª•K—v‚Å‚·B
-								#   ‰æ‘œ‚Ì•‚Æ‚‚³‚ÌÝ’è‚ÍƒXƒ^ƒCƒ‹ƒV[ƒg‚Ås‚È‚Á‚Ä‚­‚¾‚³‚¢B
-								#   IMG.rank_1 IMG.rank_5 IMG.rank_10 ‚Æ‚¢‚Á‚½ƒNƒ‰ƒX‚É‚È‚è‚Ü‚·B
-								#   ‚Ü‚½AŒMÍ‚Ì”‚ª‡Œv10ŒÂ‚ð’´‚¦‚½ê‡‚ÍˆÈ~‚Ì•\Ž¦‚ðÈ—ª‚µ‚Ü‚·B
+								#   ï¿½Ìï¿½ï¿½ÉŒMï¿½Í‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Í‰æ‘œï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
+								#   ï¿½æ‘œï¿½Ì•ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ÌÝ’ï¿½ÍƒXï¿½^ï¿½Cï¿½ï¿½ï¿½Vï¿½[ï¿½gï¿½Åsï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+								#   IMG.rank_1 IMG.rank_5 IMG.rank_10 ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Xï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+								#   ï¿½Ü‚ï¿½ï¿½Aï¿½Mï¿½Í‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½v10ï¿½Â‚ð’´‚ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍˆÈ~ï¿½Ì•\ï¿½ï¿½ï¿½ï¿½ï¿½È—ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
 #--------------
-# ƒƒjƒ…[Ý’è 
+# ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Ý’ï¿½ 
 #--------------
-$USE_BBS			=1;			# ŒfŽ¦”ÂŽg—p 0:Žg—p‚µ‚È‚¢ 1:Žg—p‚·‚é
-$BBS_TITLE			='ŒfŽ¦”Â';	# ŒfŽ¦”Âƒƒjƒ…[ƒ^ƒCƒgƒ‹
-$MAX_BBS_MESSAGE	=100;		# ŒfŽ¦”Â•Û‘¶s”
-$DENY_GUEST_BBS		=0;			# ŒfŽ¦”Â‰{—— 0:’N‚Å‚àOK 1:ƒvƒŒƒCƒ„[‚Ì‚Ý
-$SECURE_MODE_BBS	=1;			# ŒfŽ¦”Âr‚ç‚µ‘Îô 0:‰½‚à‚µ‚È‚¢ 1:˜A‘±“Še‚ð–h‚®
-								#   ’ZŽžŠÔ‚Ì˜A‘±“Še‚ð‘jŽ~‚µ‚Ü‚·B
+$USE_BBS			=1;			# ï¿½fï¿½ï¿½ï¿½ÂŽgï¿½p 0:ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½
+$BBS_TITLE			='ï¿½fï¿½ï¿½ï¿½ï¿½';	# ï¿½fï¿½ï¿½ï¿½Âƒï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½gï¿½ï¿½
+$MAX_BBS_MESSAGE	=100;		# ï¿½fï¿½ï¿½ï¿½Â•Û‘ï¿½ï¿½sï¿½ï¿½
+$DENY_GUEST_BBS		=0;			# ï¿½fï¿½ï¿½ï¿½Â‰{ï¿½ï¿½ 0:ï¿½Nï¿½Å‚ï¿½OK 1:ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì‚ï¿½
+$SECURE_MODE_BBS	=1;			# ï¿½fï¿½ï¿½ï¿½Ârï¿½ç‚µï¿½Îï¿½ 0:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½hï¿½ï¿½
+								#   ï¿½Zï¿½ï¿½ï¿½Ô‚Ì˜Aï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½jï¿½~ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-$USE_CHAT			=1;			# ˆäŒË’[Žg—p 0:Žg—p‚µ‚È‚¢ 1:Žg—p‚·‚é
-$CHAT_TITLE			='ˆäŒË’[';	# ˆäŒË’[ƒƒjƒ…[ƒ^ƒCƒgƒ‹
-$MAX_CHAT_MESSAGE	=20;		# ˆäŒË’[•Û‘¶s”
-$DENY_GUEST_CHAT	=0;			# ˆäŒË’[‰{—— 0:’N‚Å‚àOK 1:ƒvƒŒƒCƒ„[‚Ì‚Ý
-$SECURE_MODE_CHAT	=0;			# ˆäŒË’[r‚ç‚µ‘Îô 0:‰½‚à‚µ‚È‚¢ 1:˜A‘±“Še‚ð–h‚®
-								#   ’ZŽžŠÔ‚Ì˜A‘±“Še‚ð‘jŽ~‚µ‚Ü‚·B
+$USE_CHAT			=1;			# ï¿½ï¿½Ë’[ï¿½gï¿½p 0:ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½
+$CHAT_TITLE			='ï¿½ï¿½Ë’[';	# ï¿½ï¿½Ë’[ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½gï¿½ï¿½
+$MAX_CHAT_MESSAGE	=20;		# ï¿½ï¿½Ë’[ï¿½Û‘ï¿½ï¿½sï¿½ï¿½
+$DENY_GUEST_CHAT	=0;			# ï¿½ï¿½Ë’[ï¿½{ï¿½ï¿½ 0:ï¿½Nï¿½Å‚ï¿½OK 1:ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì‚ï¿½
+$SECURE_MODE_CHAT	=0;			# ï¿½ï¿½Ë’[ï¿½rï¿½ç‚µï¿½Îï¿½ 0:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½hï¿½ï¿½
+								#   ï¿½Zï¿½ï¿½ï¿½Ô‚Ì˜Aï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½jï¿½~ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-$USE_GLOBAL_MSG		=0;			# LˆæŒfŽ¦”ÂŽg—p 0:Žg—p‚µ‚È‚¢ 1:Žg—p‚·‚é
-$GLOBAL_MSG_TITLE	='LˆæŒfŽ¦”Â';# LˆæŒfŽ¦”Âƒƒjƒ…[ƒ^ƒCƒgƒ‹
-$MAX_GLOBAL_MSG_MESSAGE	=100;	# LˆæŒfŽ¦”Â•Û‘¶s”
-$URL_GLOBAL_MSG_CENTER	=	"";	# LˆæŒfŽ¦”ÂƒZƒ“ƒ^[URL
-								#   Š‘®ƒZƒ“ƒ^[‚ÌURL‚ðŽw’è‚µ‚Ü‚·B
-%GMSG_CATEGORY_NAME	=('_global','ŠO•”Ú‘±');
-								# LˆæŒfŽ¦”ÂŽóMƒJƒeƒSƒŠ[i'ƒR[ƒh','–¼Ì',...j
-								#   Žó‚¯•t‚¯‚éƒJƒeƒSƒŠ[‚ÌƒR[ƒh‚¨‚æ‚Ñ–¼Ì‚ÌƒŠƒXƒgB
-								#   ‰½‚àŽw’è‚µ‚È‚­‚Ä‚àAƒfƒtƒHƒ‹ƒg‚ÌƒJƒeƒSƒŠ[‚Í‹­§“I‚ÉŽóM‚³‚¹‚ç‚ê‚éB
-								#   ƒR[ƒh‚¨‚æ‚Ñ–¼Ì‚Í”CˆÓB
-								#   ‚½‚¾‚µA_(ƒAƒ“ƒ_[ƒo[)‚©‚çŽn‚Ü‚éƒR[ƒh‚ÍƒVƒXƒeƒ€—\–ñB
-								#   “¯‚¶ƒR[ƒh‚ðÌ—p‚µ‚Ä‚¢‚éLˆæŒfŽ¦”ÂƒZƒ“ƒ^[‚¨‚æ‚ÑŠX‚Æ‚ÌŒð—¬‚ª‰Â”\B
+$USE_GLOBAL_MSG		=0;			# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½ÂŽgï¿½p 0:ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½
+$GLOBAL_MSG_TITLE	='ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½ï¿½';# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Âƒï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½gï¿½ï¿½
+$MAX_GLOBAL_MSG_MESSAGE	=100;	# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Â•Û‘ï¿½ï¿½sï¿½ï¿½
+$URL_GLOBAL_MSG_CENTER	=	"";	# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½ÂƒZï¿½ï¿½ï¿½^ï¿½[URL
+								#   ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½^ï¿½[ï¿½ï¿½URLï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½ï¿½B
+%GMSG_CATEGORY_NAME	=('_global','ï¿½Oï¿½ï¿½ï¿½Ú‘ï¿½');
+								# ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½ÂŽï¿½Mï¿½Jï¿½eï¿½Sï¿½ï¿½ï¿½[ï¿½i'ï¿½Rï¿½[ï¿½h','ï¿½ï¿½ï¿½ï¿½',...ï¿½j
+								#   ï¿½ó‚¯•tï¿½ï¿½ï¿½ï¿½Jï¿½eï¿½Sï¿½ï¿½ï¿½[ï¿½ÌƒRï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Ñ–ï¿½ï¿½Ì‚Ìƒï¿½ï¿½Xï¿½gï¿½B
+								#   ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½è‚µï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ÌƒJï¿½eï¿½Sï¿½ï¿½ï¿½[ï¿½Í‹ï¿½ï¿½ï¿½ï¿½Iï¿½ÉŽï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+								#   ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½Ñ–ï¿½ï¿½Ì‚Í”Cï¿½ÓB
+								#   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A_(ï¿½Aï¿½ï¿½ï¿½_ï¿½[ï¿½oï¿½[)ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Rï¿½[ï¿½hï¿½ÍƒVï¿½Xï¿½eï¿½ï¿½ï¿½\ï¿½ï¿½B
+								#   ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½ÂƒZï¿½ï¿½ï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ÑŠXï¿½Æ‚ÌŒð—¬‚ï¿½ï¿½Â”\ï¿½B
 
-$USE_CUSTOM			=0;			# ƒJƒXƒ^ƒ€ƒy[ƒWŽg—p  0:Žg—p‚µ‚È‚¢ 1:Žg—p‚·‚é
-$CUSTOM_TITLE		='ƒJƒXƒ^ƒ€';# ƒJƒXƒ^ƒ€ƒy[ƒWƒƒjƒ…[ƒ^ƒCƒgƒ‹
-$DENY_GUEST_CUSTOM	=0;			# ƒJƒXƒ^ƒ€ƒy[ƒW‰{—— 0:’N‚Å‚àOK 1:ƒvƒŒƒCƒ„[‚Ì‚Ý
-								#   u0:’N‚Å‚àOKv‚ÉÝ’è‚µ‚Ä‚àAƒJƒXƒ^ƒ€ƒy[ƒWˆ—“à‚Å‚»‚Ì“s“x‰{——•s‰Â‚Éo—ˆ‚Ü‚·B
+$USE_CUSTOM			=0;			# ï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½gï¿½p  0:ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½
+$CUSTOM_TITLE		='ï¿½Jï¿½Xï¿½^ï¿½ï¿½';# ï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½^ï¿½Cï¿½gï¿½ï¿½
+$DENY_GUEST_CUSTOM	=0;			# ï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½{ï¿½ï¿½ 0:ï¿½Nï¿½Å‚ï¿½OK 1:ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì‚ï¿½
+								#   ï¿½u0:ï¿½Nï¿½Å‚ï¿½OKï¿½vï¿½ÉÝ’è‚µï¿½Ä‚ï¿½ï¿½Aï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½yï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ì“sï¿½xï¿½{ï¿½ï¿½ï¿½sï¿½Â‚Éoï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@CUSTOM_MENU=();				# ‰æ–Êã•”‚Ìƒƒjƒ…[‚É’Ç‰Á‚·‚éƒJƒXƒ^ƒ€ƒƒjƒ…[ ('URL','–¼Ì',...)
-								# Ž©ƒTƒCƒgˆÈŠO‚Ö‚ÌƒŠƒ“ƒN‚¾‚ÆƒZƒbƒVƒ‡ƒ“î•ñ‚ª‘¼ƒTƒCƒg‚Ö—¬o‚·‚é‚Ì‚Å’ˆÓB
-$USE_PORT			=0;			# [ŠO•”]ƒƒjƒ…[‚ÌŽg—p 0:Žg—p‚µ‚È‚¢ 1:Žg—p‚·‚é
-$OUTPUT_LAST_MODIFIED	=0;		# ˆäŒË’[/ŒfŽ¦”Â/LˆæŒfŽ¦”Â‚ÅHTTPƒwƒbƒ_LAST-MODIFIED‚ðo—Í 0:o—Í‚µ‚È‚¢ 1:o—Í‚·‚é
+@CUSTOM_MENU=();				# ï¿½ï¿½Êã•”ï¿½Ìƒï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½Xï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ ('URL','ï¿½ï¿½ï¿½ï¿½',...)
+								# ï¿½ï¿½ï¿½Tï¿½Cï¿½gï¿½ÈŠOï¿½Ö‚Ìƒï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÆƒZï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚ª‘ï¿½ï¿½Tï¿½Cï¿½gï¿½Ö—ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½Ì‚Å’ï¿½ï¿½ÓB
+$USE_PORT			=0;			# [ï¿½Oï¿½ï¿½]ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ÌŽgï¿½p 0:ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ 1:ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½
+$OUTPUT_LAST_MODIFIED	=0;		# ï¿½ï¿½Ë’[/ï¿½fï¿½ï¿½ï¿½ï¿½/ï¿½Lï¿½ï¿½fï¿½ï¿½ï¿½Â‚ï¿½HTTPï¿½wï¿½bï¿½_LAST-MODIFIEDï¿½ï¿½ï¿½oï¿½ï¿½ 0:ï¿½oï¿½Í‚ï¿½ï¿½È‚ï¿½ 1:ï¿½oï¿½Í‚ï¿½ï¿½ï¿½
 
 #----------------------
-# ƒoƒbƒNƒAƒbƒvŽžŠÔÝ’è 
+# ï¿½oï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ÔÝ’ï¿½ 
 #----------------------
-$BACKUP_TIME	=3600;	# ’èŠúƒf[ƒ^ƒoƒbƒNƒAƒbƒv•b”
-$BACKUP			=3;		# ƒf[ƒ^ƒoƒbƒNƒAƒbƒv¢‘ã”(Šú)
-@BACKUP_FILES	=();	# ’Ç‰ÁƒoƒbƒNƒAƒbƒv‘ÎÛƒtƒ@ƒCƒ‹”z—ñ
-						#   ˆÈ‰º‚ÉŠÖ˜A‚·‚éƒtƒ@ƒCƒ‹‚ÍƒfƒtƒHƒ‹ƒg‚ÅƒoƒbƒNƒAƒbƒv‘ÎÛ‚É‚È‚Á‚Ä‚¢‚Ü‚·B
+$BACKUP_TIME	=3600;	# ï¿½ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½oï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½bï¿½ï¿½
+$BACKUP			=3;		# ï¿½fï¿½[ï¿½^ï¿½oï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ã”(ï¿½ï¿½)
+@BACKUP_FILES	=();	# ï¿½Ç‰ï¿½ï¿½oï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½ÎÛƒtï¿½@ï¿½Cï¿½ï¿½ï¿½zï¿½ï¿½
+						#   ï¿½È‰ï¿½ï¿½ÉŠÖ˜Aï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Íƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Åƒoï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½ÎÛ‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 						#   $BBS_FILE $CHAT_FILE $GLOBAL_MSG_FILE $LOG_FILE $BOX_FILE $PERIOD_FILE $GUILDBAL_FILE $DATA_FILE
 
 #--------------------
-# ƒQ[ƒ€ƒoƒ‰ƒ“ƒXÝ’è 
+# ï¿½Qï¿½[ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Ý’ï¿½ 
 #--------------------
-$PROFIT_DAY_COUNT	=3;			# “_”ŒvŽZ‚ÌÛl—¶‚·‚é‰ß‹Ž‚Ìƒ—˜‰viŠúj
-$SALE_SPEED			=10;		# ”„‚ês‚«”{—¦(inc-item-data.cgi‚Å‚ÌÝ’è‚ð1‚Æ‚µ‚Ä)
-$POP_DOWN_RATE		=5;			# l‹CŽ©‘RŒ¸­—¦(‘å‚«‚¢‚Ù‚ÇAŒ»Ý‚Ìl‹C‚É‰ž‚¶‚Ä‚Ìã‰º•‚ª‘å‚«‚­‚È‚é)
-$LIMIT_EXP			=0;			# n—û“x‚Ì‡Œv’lƒŠƒ~ƒbƒg 0:ãŒÀ–³‚µ 1~:ãŒÀÝ’è(1=0.1%)
-$EXP_DOWN_POINT		=5;			# ŒˆŽZŽž‚ÉŽ©‘RŒ¸­‚·‚én—û“xƒ|ƒCƒ“ƒg(1%==10)
-$EXP_DOWN_RATE		=60;		# ŒˆŽZŽž‚ÉŽ©‘RŒ¸­‚·‚én—û“xŠ„‡(6%==60)
-								# —á:Œ»Ý‚Ìn—û“x50%‚Ìê‡AŒÅ’è‚Ì0.5%‚Æ50%‚Ì6%‚Å3%A‡‚í‚¹‚Ä3.5%Œ¸­‚·‚é
-$MAX_BOX			=5;			# ƒƒbƒZ[ƒW—Þ‘—MÅ‘å”
-$TOWN_TYPE			="normal";	# ŠX(¤•iƒf[ƒ^)‚Ìƒ^ƒCƒvÝ’è
-								#  normal   -> [“rãƒ^ƒCƒv] ’ÊíŽžŠÔƒpƒ^[ƒ“
-								#  sotype1  -> [‰ÁHƒ^ƒCƒv] ‰ÁHŽžŠÔ’Zkƒpƒ^[ƒ“
-								#  sotype2  -> [Ž‘Œ¹ƒ^ƒCƒv] ‘fÞÌŽæŽžŠÔ’Zkƒpƒ^[ƒ“
-								#  timehalf -> [æiƒ^ƒCƒv] ‘SŽžŠÔ’Zkƒpƒ^[ƒ“
+$PROFIT_DAY_COUNT	=3;			# ï¿½_ï¿½ï¿½ï¿½vï¿½Zï¿½ÌÛlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‹ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½vï¿½iï¿½ï¿½ï¿½j
+$SALE_SPEED			=10;		# ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½{ï¿½ï¿½(inc-item-data.cgiï¿½Å‚ÌÝ’ï¿½ï¿½1ï¿½Æ‚ï¿½ï¿½ï¿½)
+$POP_DOWN_RATE		=5;			# ï¿½lï¿½Cï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½å‚«ï¿½ï¿½ï¿½Ù‚ÇAï¿½ï¿½ï¿½Ý‚Ìlï¿½Cï¿½É‰ï¿½ï¿½ï¿½ï¿½Ä‚Ìã‰ºï¿½ï¿½ï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½È‚ï¿½)
+$LIMIT_EXP			=0;			# ï¿½nï¿½ï¿½ï¿½xï¿½Ìï¿½ï¿½vï¿½lï¿½ï¿½ï¿½~ï¿½bï¿½g 0:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1~:ï¿½ï¿½ï¿½ï¿½Ý’ï¿½(1=0.1%)
+$EXP_DOWN_POINT		=5;			# ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ÉŽï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½xï¿½|ï¿½Cï¿½ï¿½ï¿½g(1%==10)
+$EXP_DOWN_RATE		=60;		# ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ÉŽï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½(6%==60)
+								# ï¿½ï¿½:ï¿½ï¿½ï¿½Ý‚Ìnï¿½ï¿½ï¿½x50%ï¿½Ìê‡ï¿½Aï¿½Å’ï¿½ï¿½0.5%ï¿½ï¿½50%ï¿½ï¿½6%ï¿½ï¿½3%ï¿½Aï¿½ï¿½ï¿½í‚¹ï¿½ï¿½3.5%ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+$MAX_BOX			=5;			# ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Þ‘ï¿½ï¿½Mï¿½Å‘å”
+$TOWN_TYPE			="normal";	# ï¿½X(ï¿½ï¿½ï¿½iï¿½fï¿½[ï¿½^)ï¿½Ìƒ^ï¿½Cï¿½vï¿½Ý’ï¿½
+								#  normal   -> [ï¿½rï¿½ï¿½^ï¿½Cï¿½v] ï¿½ÊíŽžï¿½Ôƒpï¿½^ï¿½[ï¿½ï¿½
+								#  sotype1  -> [ï¿½ï¿½ï¿½Hï¿½^ï¿½Cï¿½v] ï¿½ï¿½ï¿½Hï¿½ï¿½ï¿½Ô’Zï¿½kï¿½pï¿½^ï¿½[ï¿½ï¿½
+								#  sotype2  -> [ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½v] ï¿½fï¿½ÞÌŽæŽžï¿½Ô’Zï¿½kï¿½pï¿½^ï¿½[ï¿½ï¿½
+								#  timehalf -> [ï¿½ï¿½iï¿½^ï¿½Cï¿½v] ï¿½Sï¿½ï¿½ï¿½Ô’Zï¿½kï¿½pï¿½^ï¿½[ï¿½ï¿½
 
 #--------------
-# ƒfƒoƒbƒOÝ’è 
+# ï¿½fï¿½oï¿½bï¿½Oï¿½Ý’ï¿½ 
 #--------------
-$DEBUG_MOBILE		=0;			# 1‚ÅŒg‘Ñ’[––ˆ—ŒÅ’è
-$DEBUG_PRINT		=0;			# 1‚Å‰Â”\‚ÈŒÀ‚è500ƒGƒ‰[‚Ì“à—e‚ð•\Ž¦
-								#   ƒZƒLƒ…ƒŠƒeƒBã‚ÌŒœ”O‚ª‚ ‚é‚½‚ßAƒfƒtƒHƒ‹ƒg‚Å‚Ío—Í–³‚µB
-								#   Žg—p‚Íƒ[ƒJƒ‹‚Å‚ÌŠJ”­Žž‚Ì‚Ý‚ÉŒÀ’è‚µ‚Ä‚­‚¾‚³‚¢B
-$DEBUG_LOG_ENABLE	=0;			# 1‚Åitem::DebugLog()‚Æevent::DebugLog()‚ð—LŒø‰»
-$MAX_ERROR_COUNT	=5;			# ƒ[ƒ‹‚ÅƒGƒ‰[•ñ‚·‚éÅ‘å”(ƒfƒtƒHƒ‹ƒg‚ð„§)
-								#   ‘½”‚ÌƒGƒ‰[ƒ[ƒ‹‚Åƒ[ƒ‹ƒ{ƒbƒNƒX‚ªˆì‚ê‚é‚Ì‚ð–h‚®‚½‚ß‚Ì§ŒÀ‚Å‚·B
-								#   ‚±‚Ì‰ñ”ˆÈã‚Ìƒ[ƒ‹•ñ‚Ís‚í‚ê‚Ü‚¹‚ñB
-								#   —ÝÏ‰ñ”‚ÍŠÇ—ƒƒjƒ…[‚ÅƒŠƒZƒbƒg‚Å‚«‚Ü‚·B
-								#   ƒGƒ‰[ƒ[ƒ‹‚ª“Í‚­‚½‚Ñ‚ÉƒŠƒZƒbƒg‚·‚é‚Æ‚¢‚¢‚Å‚µ‚å‚¤B
-								#   ¦ƒGƒ‰[ƒ[ƒ‹‚Ì—LŒø‰»‚É‚Í$SENDMAIL‚ÌÝ’è‚ª•K—v‚Å‚·B
+$DEBUG_MOBILE		=0;			# 1ï¿½ÅŒgï¿½Ñ’[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å’ï¿½
+$DEBUG_PRINT		=0;			# 1ï¿½Å‰Â”\ï¿½ÈŒï¿½ï¿½ï¿½500ï¿½Gï¿½ï¿½ï¿½[ï¿½Ì“ï¿½ï¿½eï¿½ï¿½\ï¿½ï¿½
+								#   ï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½ï¿½ÌŒï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ßAï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚Íoï¿½Í–ï¿½ï¿½ï¿½ï¿½B
+								#   ï¿½gï¿½pï¿½Íƒï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½Å‚ÌŠJï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ý‚ÉŒï¿½ï¿½è‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+$DEBUG_LOG_ENABLE	=0;			# 1ï¿½ï¿½item::DebugLog()ï¿½ï¿½event::DebugLog()ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½
+$MAX_ERROR_COUNT	=5;			# ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÅƒGï¿½ï¿½ï¿½[ï¿½ñ‚ï¿½ï¿½ï¿½Å‘å”(ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ð„ï¿½)
+								#   ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒGï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Åƒï¿½ï¿½[ï¿½ï¿½ï¿½{ï¿½bï¿½Nï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ß‚Ìï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+								#   ï¿½ï¿½ï¿½Ì‰ñ”ˆÈï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ñ‚Ísï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+								#   ï¿½ÝÏ‰ñ”‚ÍŠÇ—ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Åƒï¿½ï¿½Zï¿½bï¿½gï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+								#   ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½Ñ‚Éƒï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½å‚¤ï¿½B
+								#   ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì—Lï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½$SENDMAILï¿½ÌÝ’è‚ªï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
 
 #--------------------------------------
-# ”’lƒpƒ‰ƒ[ƒ^Ž©“®ƒ`ƒFƒbƒNœŠOƒŠƒXƒg 
+# ï¿½ï¿½ï¿½lï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Xï¿½g 
 #--------------------------------------
-# "nan" ‚à‚µ‚­‚Í "inf" ‚ª“ü—Í‚³‚ê‚Ä‚à‚»‚ê‚ðŽó‚¯“ü‚ê‚éƒpƒ‰ƒ[ƒ^‚ÌƒŠƒXƒg‚Å‚·B
-# "nan" ‚à‚µ‚­‚Í "inf" ‚ð•¶Žš—ñ‚Æ‚µ‚Ä—˜—p‚·‚éê‡‚É‚ÍA
-# ‚»‚ÌƒRƒ}ƒ“ƒh‚ÌƒXƒNƒŠƒvƒg–¼(bbs,chat“™)‚Æƒpƒ‰ƒ[ƒ^–¼(msg“™)‚ðƒŠƒXƒg‚É’Ç‰Á‚µ‚Ä‰º‚³‚¢B
-# ‚±‚ÌƒŠƒXƒg‚É“ü‚Á‚Ä‚¢‚È‚¢ƒpƒ‰ƒ[ƒ^‚Ìê‡A
-# "nan" ‚à‚µ‚­‚Í "inf" ‚©‚çŽn‚Ü‚é“ü—Í‚Í‘S‚Ä 0 ‚É’u‚«Š·‚¦‚ç‚ê‚Ü‚·B
-# ‘Ž®‚ÍˆÈ‰º‚ðŽQl‚É‚µ‚Ä‚­‚¾‚³‚¢B("ƒtƒ@ƒCƒ‹ƒx[ƒX–¼:ƒpƒ‰ƒ[ƒ^–¼"=>"str", ...)
+# "nan" ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "inf" ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯“ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìƒï¿½ï¿½Xï¿½gï¿½Å‚ï¿½ï¿½B
+# "nan" ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "inf" ï¿½ð•¶Žï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ä—ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ÍA
+# ï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÌƒXï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½(bbs,chatï¿½ï¿½)ï¿½Æƒpï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½(msgï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½gï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+# ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Xï¿½gï¿½É“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½Ìê‡ï¿½A
+# "nan" ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "inf" ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½ï¿½ï¿½Í‚Í‘Sï¿½ï¿½ 0 ï¿½É’uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+# ï¿½ï¿½ï¿½ï¿½ï¿½ÍˆÈ‰ï¿½ï¿½ï¿½ï¿½Qï¿½lï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B("ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ï¿½:ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½"=>"str", ...)
 %QUERY_TYPE_TABLE=(
 	"u"				=>	"str",
 	"nm"			=>	"str",
@@ -376,8 +376,8 @@ $MAX_ERROR_COUNT	=5;			# ƒ[ƒ‹‚ÅƒGƒ‰[•ñ‚·‚éÅ‘å”(ƒfƒtƒHƒ‹ƒg‚ð„§)
 umask(~$DIR_PERMISSION & 0777);
 
 #------------------
-# _config Ý’èŠg’£ 
+# _config ï¿½Ý’ï¿½gï¿½ï¿½ 
 #------------------
-# ŠeƒTƒCƒg–ˆ‚Ì•ÏX“_‚Í‚±‚Ìƒtƒ@ƒCƒ‹‚ðì¬‚µA‹Lq‚·‚é‚Æ•Ö—˜‚©‚à‚µ‚ê‚Ü‚¹‚ñB“à—e‚ÍŽ©—R‚Å‚·B
+# ï¿½eï¿½Tï¿½Cï¿½gï¿½ï¿½ï¿½Ì•ÏXï¿½_ï¿½Í‚ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Aï¿½Lï¿½qï¿½ï¿½ï¿½ï¿½Æ•Ö—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½eï¿½ÍŽï¿½ï¿½Rï¿½Å‚ï¿½ï¿½B
 require './_config-local.cgi' if -e './_config-local.cgi';
 1;
