@@ -1,9 +1,12 @@
-FROM netroby/docker-apache-perl:latest
+FROM centos:7
+
+RUN yum install -y httpd httpd-devel
+RUN systemctl enable httpd.service
 
 ADD ./SOLDOUT/soldout /var/www/html
 RUN chmod 755 /var/www/html -R && \
-    chown www-data:www-data /var/www/html -R
+    chown apache:apache /var/www/html -R
 RUN chmod 777 /var/www/html/data
 WORKDIR /var/www/html
 
-CMD "/usr/sbin/apache2ctl" "-D" "FOREGROUND"
+CMD "/usr/sbin/httpd" "-D" "FOREGROUND"
