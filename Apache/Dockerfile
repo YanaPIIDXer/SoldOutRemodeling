@@ -1,7 +1,5 @@
-FROM httpd:2.4
+FROM netroby/docker-apache-perl:latest
 
-RUN apt-get install -y perl-base
-RUN ln -s /usr/bin/perl /usr/local/bin/perl
+WORKDIR /var/www/html
 
-ADD ./httpd.conf /usr/local/apache2/conf/httpd.conf
-WORKDIR /usr/local/apache2/htdocs
+CMD "/usr/sbin/apache2ctl" "-D" "FOREGROUND"
