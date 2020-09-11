@@ -2,6 +2,8 @@ FROM centos:7
 
 RUN yum install -y httpd httpd-devel
 
+RUN ln -s /usr/bin/perl /usr/local/bin/perl
+
 ADD ./httpd.conf /etc/httpd/conf/httpd.conf
 
 ADD ./SOLDOUT/soldout /var/www/html
